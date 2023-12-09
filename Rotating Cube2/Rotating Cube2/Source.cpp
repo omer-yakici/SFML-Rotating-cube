@@ -10,10 +10,9 @@ int main() {
     cube.setFillColor(sf::Color::Blue);
     cube.setOrigin(cubeSize.x / 2.f, cubeSize.y / 2.f);
     cube.setPosition(window.getSize().x / 2.f, window.getSize().y / 2.f);
-
-    // Ana döngü
+    
     while (window.isOpen()) {
-        // Olayları işle
+        
         sf::Event event;
         while (window.pollEvent(event)) {
             if (event.type == sf::Event::Closed)
