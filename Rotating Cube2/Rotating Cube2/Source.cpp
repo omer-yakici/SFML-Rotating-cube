@@ -23,7 +23,7 @@ int main() {
         // Küpü döndür
         cube.rotate(0.1f);  // Küpün dönme hızını ayarla
 
-        // Ekranı temizle (arka planı beyaza ayarla)
+        // arka planı beyaza ayarla
         window.clear(sf::Color::White);
 
         // Küpü çiz
